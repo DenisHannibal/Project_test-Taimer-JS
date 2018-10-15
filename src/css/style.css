@@ -1,0 +1,27 @@
+#out {
+margin-top: 30px; 
+}
+.footer {
+  flex: 0 0 auto;
+} 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+footer {
+  flex: 0 0 auto;
+} 
+
+.taimer2, .taimer1  {
+  text-align: center;
+  padding: 50px;
+  font-size: 50px;
+}

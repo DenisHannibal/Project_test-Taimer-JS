@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Taimer</title> 
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <header>
+    <div class="header container bg-primary"> 
+      <div class="col-lg-12">
+        <h1 class="text-center">Taimer</h1>
+      </div>
+    </div>
+  </header>
+  <main class="container bg-light">  
+   <div class="taimer1">
+     <p id="output1">00:00:00:00</p> 
+     <button class=" btn-primary" id="start1">START</button>
+     <button class=" btn-primary" id="reset1">RESET</button> 
+    </div>
+    <p>
+  
+    <div class="taimer2">
+      <div class="stopwatch"> 
+         <div class="display">
+     <span class="minutes">00</span>:<span class="seconds">00</span>:<span class="centiseconds">00</span>
+    </div>
+        <div class="controls"> 
+          <button type="button" class="start btn-primary">Start</button>
+          <button type="button" class="stop btn-primary">Stop</button>
+          <button type="button" class="reset btn-primary">Reset</button>
+        </div>
+   
+      </div>
+    </div>
+    
+  </main> 
+<footer>
+  <div class="footer container bg-primary">
+    <h2 class="text-center">GitHub - DenisHannibal </h2> 
+  </div>
+</footer> 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/generator.js"></script> 
+  <script src="js/taimer1.js"></script> 
+  <script src="js/taimer2.js"></script>
+</body>
+
+</html>
